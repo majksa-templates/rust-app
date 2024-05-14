@@ -1,5 +1,5 @@
 # Build app
-FROM rust:1-slim-bullseye as builder
+FROM rust:1-slim-bullseye AS builder
 RUN apt-get update && apt-get install -y \
     pkg-config libssl-dev build-essential cmake && rm -rf /var/lib/apt/lists/*
 RUN mkdir -p /app

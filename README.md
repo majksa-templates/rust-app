@@ -1,3 +1,5 @@
-# Rust App
+# rust-app
 
-A Rust App
+rust-app description
+
+[Crate API Documentation](https://majksa-dev.github.io/rust-app/)
